@@ -1,0 +1,24 @@
+{
+  "name": "@nova/core",
+  "version": "1.0.0",
+  "description": "Nova Core Engine - Multi-Agent AI Platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nova/types": "1.0.0",
+    "axios": "^1.6.0",
+    "pino": "^8.15.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  }
+}
