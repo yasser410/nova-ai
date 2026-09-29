@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+   Files are backed up by default. Since we have a WebView cache and other
+   files we don't want backed up, we use the domain tag to exclude them.
+    -->
+    <exclude domain="database" path="webview.db" />
+    <exclude domain="cache" />
+    <exclude domain="shared_prefs" />
+</full-backup-content>
