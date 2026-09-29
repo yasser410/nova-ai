@@ -1,0 +1,2 @@
+# .gradle
+This is the Gradle cache directory. It will be created during the first build.
